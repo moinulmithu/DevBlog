@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevsCraft.Core.Objects
 {
-    class Post
+    public class Post
     {
         public virtual int Id { get; set; }
         public virtual string Title { get; set; }
