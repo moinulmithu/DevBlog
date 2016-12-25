@@ -19,6 +19,11 @@ namespace DevsCraft.Web
             kernel.Bind<IBlogRepository>().To<BlogRepository>();
             return kernel;
         }
+        //protected override void OnApplicationStarted()
+        //{
+        //    RouteConfig.RegisterRoutes(RouteTable.Routes);
+        //    base.OnApplicationStarted();
+        //}
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
